@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>API Data Table with Pagination and Search</h1>
+
+    <!-- Search Input -->
+    <div class="container">
+      <input type="text" id="search" placeholder="Search...">
+    </div>
+  
+    <!-- Table -->
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <!-- Example Table Headers, replace with actual headers from your API response -->
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- Data rows will be inserted here by JavaScript -->
+      </tbody>
+    </table>
+  
+    <!-- Pagination -->
+    <div class="pagination" id="pagination">
+      <!-- Pagination buttons will be inserted here by JavaScript -->
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
